@@ -20,7 +20,7 @@
                         <th>{{ $joke->title }}</th>
                         <th>{{ $joke->author }}</th>
                         <th>
-                            SHOW
+                            <a href="{{ route('jokes.show', $joke->id) }}" class="btn btn-success">SHOW</a>
                         </th>
                         <th>
                             EDIT
